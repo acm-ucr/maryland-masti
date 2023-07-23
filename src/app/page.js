@@ -10,16 +10,26 @@ const Home = () => {
   return (
     <>
       <Landing />
-      <Title title="MEDIA" />
-      <Media />
-      <Title title="ABOUT US" />
-      <About />
-      <Title title="PHILANTHROPY" />
-      <Philanthropy />
-      <Title title="SPONSORS" />
-      <Sponsors />
-      <Title title="CONTACT" />
-      <Contact />
+      <section className="w-full" id="media">
+        <Title title="MEDIA" />
+        <Media />
+      </section>
+      <section className="w-full" id="about">
+        <Title title="ABOUT US" />
+        <About />
+      </section>
+      <section className="w-full" id="philanthropy">
+        <Title title="PHILANTHROPY" />
+        <Philanthropy />
+      </section>
+      <section className="w-full" id="sponsors">
+        <Title title="SPONSORS" />
+        <Sponsors />
+      </section>
+      <section className="w-full" id="contacts">
+        <Title title="CONTACT" />
+        <Contact />
+      </section>
     </>
   );
 };

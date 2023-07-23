@@ -71,7 +71,7 @@ export const medias = [
     link: "https://photos.google.com/share/AF1QipPpv7hNtBpsYlx0lIFGon85_cLKUydrQ67W1DUxWKvM9TsM9_uaD6ygNAIx_OHuJQ?key=QmM4TTBPLUw4MTlSZGdaeTJWcDNoM2RkNXE3bGJn",
   },
   {
-    textColor: "text-masti-red-300",
+    textColor: "text-white",
     bgColor: "bg-masti-red-100",
     text: "Awards",
     link: "https://photos.google.com/share/AF1QipMSLJN_tS7Ms9KJUEsc3XoCvSgt1sefJl-NPZeqHxwL5Q_EZ1mf27shGipPnUZ1Eg?key=WlF3Slcxb0s2V3lGX0Zfdm1PYWM4dk9EakIxQWFB",

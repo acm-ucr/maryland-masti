@@ -2,8 +2,6 @@
 import { teams, medias } from "@/data/media";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import Link from "next/link";
-
 const Media = () => {
   return (
     <div className="bg-masti-beige flex flex-col items-center py-8 relative">
@@ -14,12 +12,14 @@ const Media = () => {
         <Row className="m-0 p-0 justify-center">
           {medias.map((media, index) => (
             <Col key={index} className="p-3 w-full flex" xs={6} xl={4}>
-              <Link
+              <a
+                target="_blank"
                 href={media.link}
                 className={` duration-300 hover:scale-110 w-full font-anton text-lg md:text-2xl text-center no-underline ${media.bgColor} ${media.textColor}`}
+                rel="noreferrer"
               >
                 {media.text}
-              </Link>
+              </a>
             </Col>
           ))}
         </Row>

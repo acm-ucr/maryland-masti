@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Circle from "./Circle";
 
 const Landing = () => {
@@ -31,12 +30,14 @@ const Landing = () => {
         <p className="m-0 text-white font-poppins font-bold text-right text-lg md:text-2xl self-end">
           Show SOLD OUT! Join us at the after party
         </p>
-        <Link
-          href="/"
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://kchinna.github.io"
           className=" duration-300 hover:scale-110 font-anton bg-masti-beige text-masti-red-200 self-center text-cl md:text-3xl no-underline px-8 py-2 my-2 md:my-5"
         >
           AFTER PARTY
-        </Link>
+        </a>
       </div>
     </div>
   );

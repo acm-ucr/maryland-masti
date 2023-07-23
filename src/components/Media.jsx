@@ -17,7 +17,7 @@ const Media = () => {
             <Col key={index} className="p-3 w-full flex" xs={6} xl={4}>
               <Link
                 href={media.link}
-                className={`w-full font-anton text-lg md:text-2xl text-center no-underline ${media.bgColor} ${media.textColor}`}
+                className={` duration-300 hover:scale-110 w-full font-anton text-lg md:text-2xl text-center no-underline ${media.bgColor} ${media.textColor}`}
               >
                 {media.text}
               </Link>

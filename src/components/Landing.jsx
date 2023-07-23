@@ -7,19 +7,19 @@ const Landing = () => {
   return (
     <div className="relative bg-gradient-to-r from-black to-masti-red-300 flex justify-center items-center h-[50vh] md:h-[90vh] overflow-hidden">
       <Circle
-        className="absolute opacity-50 top-0 -translate-y-1/2 w-1/3"
+        className="absolute opacity-30 top-0 -translate-y-1/2 w-1/3"
         color="#A51222"
       />
       <Circle
-        className="absolute opacity-50 bottom-0 translate-y-1/2 w-1/3"
+        className="absolute opacity-30 bottom-0 translate-y-1/2 w-1/3"
         color="#A51222"
       />
       <Circle
-        className="absolute opacity-50 left-0 -translate-x-1/2 w-1/2"
+        className="absolute opacity-30 left-0 -translate-x-1/2 w-1/2"
         color="#A51222"
       />
       <Circle
-        className="absolute opacity-50 right-0 translate-x-1/2 w-1/2"
+        className="absolute opacity-30 right-0 translate-x-1/2 w-1/2"
         color="#A51222"
       />
       <div className="relative w-2/3 md:w-1/2 flex flex-col">
@@ -35,7 +35,7 @@ const Landing = () => {
         </p>
         <Link
           href="/"
-          className="font-anton bg-masti-beige text-masti-red-200 self-center text-cl md:text-3xl no-underline px-8 py-2 my-2 md:my-5"
+          className=" duration-300 hover:scale-110 font-anton bg-masti-beige text-masti-red-200 self-center text-cl md:text-3xl no-underline px-8 py-2 my-2 md:my-5"
         >
           AFTER PARTY
         </Link>

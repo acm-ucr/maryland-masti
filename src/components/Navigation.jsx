@@ -35,8 +35,8 @@ const Navigation = () => {
         expand="md"
         fixed="top"
       >
-        <div className="flex flex-row w-full justify-between m-0 items-center bg-black/50">
-          <Navbar.Brand className="w-1/12 m-0 p-0 flex items-center">
+        <div className="flex flex-row w-full justify-between m-0 items-center bg-black/60">
+          <Navbar.Brand className="w-1/6 md:w-1/12 m-0 p-0 flex items-center">
             <Link
               href="/"
               className="no-underline m-0 flex items-center p-0 w-full"
@@ -55,7 +55,7 @@ const Navigation = () => {
                   className=""
                   as={Link}
                 >
-                  <p className="hover:opacity-70 mb-0 text-white text-2xl p-0 font-anton">
+                  <p className="text-white hover:opacity-50 duration-300 hover:scale-110  mb-0 text-xl md:text-2xl p-0 font-anton">
                     {item.name}
                   </p>
                 </Nav.Link>
@@ -66,7 +66,7 @@ const Navigation = () => {
             className="list-unstyled !text-transparent"
             aria-controls="basic-navbar-nav"
           >
-            <FaBars className=" text-asme-blue-500 text-xl" />
+            <FaBars className=" text-white text-xl" />
           </Navbar.Toggle>
         </div>
       </Navbar>

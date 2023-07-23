@@ -7,7 +7,7 @@ const Sponsors = () => {
   return (
     <Row className="m-0 p-0">
       {sponsors.map((sponsor, index) => (
-        <Col key={index} className={`p-4 ${sponsor.color}`} xl={3}>
+        <Col key={index} className={`p-4 ${sponsor.color}`} xs={6} xl={3}>
           <img src={sponsor.image} className="" />
         </Col>
       ))}

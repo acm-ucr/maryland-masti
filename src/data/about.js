@@ -1,7 +1,5 @@
-import image from "../../public/image3.png";
-import raasImg from "../../public/raas.png";
 export const show = {
-  image: image,
+  image: "/image3.png",
   text: "Maryland Masti is an annual intercollegiate Garba/Raas competition held by the students at the University of Maryland, College Park. Our goals include spreading awareness of the traditional folk dance cultures of the West Indian State of Gujarat, providing an outlet for current students to express their passion for such dance, entertaining the guests at our show, and having a great weekend -- staff, teams, and audience alike!",
   title: "What is Maryland Masti",
 };
@@ -11,7 +9,7 @@ export const garba = {
 };
 
 export const raas = {
-  image: raasImg,
+  image: "/raas.png",
   title: "What is Raas?",
   text: "Raas, a highly energetic and fast-paced , is associated with Garba and is also performed during Navratri. Traditionally, Raas was only performed by men, but it has evolved into a dance for everyone. Raas is played with two sticks, each about 1.5 feet long. The sticks are hit together to the beat of the accompanying song and people move from partner to partner in a choreographed dance.",
 };

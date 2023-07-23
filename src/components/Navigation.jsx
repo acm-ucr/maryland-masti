@@ -4,12 +4,10 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Link from "next/link";
 import { FaBars } from "react-icons/fa";
-import Image from "next/image";
-import logo from "../../public/logo.svg";
 
 const items = [
   {
-    name: "About",
+    name: "ABOUT",
     link: "#about",
   },
   {
@@ -42,7 +40,7 @@ const Navigation = () => {
               className="no-underline m-0 flex items-center p-0 w-full"
               onClick={() => setSelected("Logo")}
             >
-              <Image src={logo} className="m-0 p-0 w-full" alt="logo" />
+              <img src="logo.svg" className="m-0 p-0 w-full" alt="logo" />
             </Link>
           </Navbar.Brand>
           <Navbar.Collapse className="items-center md:justify-end justify-center md:mr-10">

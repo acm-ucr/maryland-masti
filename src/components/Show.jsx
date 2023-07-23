@@ -1,6 +1,6 @@
 import Circle from "./Circle";
 import { show } from "@/data/about";
-import Image from "next/image";
+
 const Show = () => {
   return (
     <div className="flex flex-col md:flex-row items-stretch w-full">
@@ -28,8 +28,8 @@ const Show = () => {
       </div>
       <div className="bg-masti-beige relative overflow-hidden flex  w-full md:w-1/3">
         <Circle className="absolute left-0 -translate-x-1/2" color="#FFFFFF" />
-        <Image
-          src={show.image}
+        <img
+          src="/image3.png"
           className="relative place-self-center self-center w-full"
         />
       </div>

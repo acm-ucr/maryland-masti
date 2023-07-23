@@ -1,6 +1,5 @@
 "use client";
-import { teams } from "@/data/media";
-import { medias } from "@/data/media";
+import { teams, medias } from "@/data/media";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Link from "next/link";

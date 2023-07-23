@@ -1,5 +1,3 @@
-import Image from "next/image";
-import logo from "../../public/logo.svg";
 import Link from "next/link";
 import Circle from "./Circle";
 
@@ -23,7 +21,7 @@ const Landing = () => {
         color="#A51222"
       />
       <div className="relative w-2/3 md:w-1/2 flex flex-col">
-        <Image className="w-1/2 md:w-1/3" src={logo} />
+        <img className="w-1/2 md:w-1/3" src="/logo.svg" />
         <p className="m-0 text-white font-anton text-4xl md:text-8xl border-b-4 border-masti-red-200 w-fit self-center">
           Maryland Masti
         </p>

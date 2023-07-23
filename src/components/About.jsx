@@ -4,11 +4,11 @@ import Show from "./Show";
 
 const About = () => {
   return (
-    <div className="w-full">
+    <section className="w-full" id="about">
       <Show />
       <Garba />
       <Raas />
-    </div>
+    </section>
   );
 };
 

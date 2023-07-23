@@ -4,7 +4,7 @@ import Show from "./Show";
 
 const About = () => {
   return (
-    <div>
+    <div className="w-full">
       <Show />
       <Garba />
       <Raas />

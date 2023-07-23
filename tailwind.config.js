@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        popins: "var(--font-poppins)",
+        antonio: "var(--font-antonio)",
+      },
       colors: {
         masti: {
           black: "#0C0102",

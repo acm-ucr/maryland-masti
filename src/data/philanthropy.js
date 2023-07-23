@@ -12,3 +12,6 @@ export const where = {
   title: "Where they work?",
   text: "With operations in 20 of India’s 29 states, Pratham reaches millions of children and youth each year from Kashmir to Tamil Nadu. Our methods have also spread beyond India’s borders through ASER, which has inspired parallel citizen-led assessments of children’s learning in fourteen countries.",
 };
+
+export const image =
+  "https://dbknews.s3.amazonaws.com/uploads/2019/04/Masti-Garba-14.jpeg";

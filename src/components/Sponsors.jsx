@@ -6,9 +6,9 @@ import Row from "react-bootstrap/Row";
 const Sponsors = () => {
   return (
     <Row className="m-0 p-0">
-      {sponsors.map((team, index) => (
-        <Col key={index} className={`p-4 ${team.color}`} xl={3}>
-          <img src={team.image} className="" />
+      {sponsors.map((sponsor, index) => (
+        <Col key={index} className={`p-4 ${sponsor.color}`} xl={3}>
+          <img src={sponsor.image} className="" />
         </Col>
       ))}
     </Row>

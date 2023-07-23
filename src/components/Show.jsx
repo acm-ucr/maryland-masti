@@ -6,7 +6,7 @@ const Show = () => {
     <div className="flex flex-col md:flex-row items-stretch w-full">
       <div className="flex w-full md:w-3/4">
         <div className="bg-masti-red-200 w-1/6 md:w-1/12 relative">
-          <p className="whitespace-nowrap font-bold font-antonio text-masti-beige rotate-90 text-5xl md:text-5xl lg:text-6xl xl:text-7xl absolute left-1/2 top-1/2 origin-center -translate-x-1/2 -translate-y-1/2">
+          <p className="whitespace-nowrap font-anton text-masti-beige rotate-90 text-4xl md:text-5xl lg:text-6xl xl:text-7xl absolute left-1/2 top-1/2 origin-center -translate-x-1/2 -translate-y-1/2">
             THE SHOW
           </p>
         </div>
@@ -16,7 +16,7 @@ const Show = () => {
             color="#F77F00"
           />
           <div className="w-fit self-end my-5">
-            <p className="w-full relative text-2xl md:text-4xl font-antonio text-masti-red-100 bg-white font-bold text-right m-0 mb-2 py-2 pl-12 md:pl-24 pr-4">
+            <p className="w-full relative text-2xl md:text-4xl font-anton text-masti-red-100 bg-white text-right m-0 mb-2 py-2 pl-12 md:pl-24 pr-4">
               {show.title}
             </p>
             <div className="w-full h-2 bg-masti-red-300 relative" />

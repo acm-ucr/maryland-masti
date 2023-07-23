@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         poppins: "var(--font-poppins)",
-        antonio: "var(--font-antonio)",
+        anton: "var(--font-anton)",
       },
       colors: {
         masti: {

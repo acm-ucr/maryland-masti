@@ -55,7 +55,7 @@ const Navigation = () => {
                   className=""
                   as={Link}
                 >
-                  <p className="hover:opacity-70 mb-0 text-white text-2xl p-0 font-antonio">
+                  <p className="hover:opacity-70 mb-0 text-white text-2xl p-0 font-anton">
                     {item.name}
                   </p>
                 </Nav.Link>
